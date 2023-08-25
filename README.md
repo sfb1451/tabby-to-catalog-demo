@@ -1,43 +1,15 @@
 ## The Catalog
 
-This is a browsable data catalog generated from metadata using [`datalad-catalog`](https://github.com/datalad/datalad-catalog/). It is a self-contained and static [VueJS](https://vuejs.org/)-based site that can be viewed in any modern internet browser.
+The repository demonstrates how the Tabby dataset descriptions can be converted to catalog website.
 
-## Content
+To view dataset pages, use the following links:
 
-The content of this root directory includes everything necessary to serve the static site:
-
-```
-.
-├── artwork
-├── assets
-├── config.json
-├── index.html
-├── metadata
-└── README.md
-```
-
-The `artwork` and `assets` directories contain images and web assets (such as JavaScript and CSS files) respectively that support the rendering of the HTML components in `index.html`. The `config.json` file contains customizable configuration options supplied to `datalad-catalog`.
-
-## Serving the content
-
-Since this site is self-contained and static, no further build processes, server-side implementations, or access to content delivery networks (CDNs) are necessary in order to serve the content. All that is needed is a simple HTTP server.
-
-This can be achieved locally, for example using Python:
-
-```bash
-cd path/to/catalog/directory
-python3 -m http.server
-```
-
-The content can also be hosted and served online. A straightforward and free way to achieve this is via GitHub and [GitHub Pages](https://pages.github.com/). After publishing this content as a GitHub repository, you can activate GitHub Pages in the repository's settings. See detailed instructions [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
-
-## Maintaining content
-
-Metadata entries can be updated, added to, and removed from the catalog in a decentralized and collaborative manner. Please refer to the [`datalad-catalog` documentation](http://docs.datalad.org/projects/catalog/en/latest/?badge=latest) for detailed instructions.
-
-## Feedback, issues and contributions
-
-Please log any feedback or problems you encounter with regards to the functioning of the catalog as an [issue](https://github.com/datalad/datalad-catalog/issues/new) on the `datalad-catalog` repository. For missing or unexpected metadata content, please contact the maintainer of this catalog.
-
-Contributions to this open source project are welcome! Please refer to the [contributor guidelines](http://docs.datalad.org/projects/catalog/en/latest/contributing.html) for more information.
-
+- [Palmer Penguins](https://sfb1451.github.io/tabby-to-catalog-demo/#/dataset/9e2708d2-ae62-5f4e-9753-d2bf89d83029/0.1.0) (example dataset)
+- [A02](https://sfb1451.github.io/tabby-to-catalog-demo/#/dataset/7a7fb3cd-5849-5df2-9530-9eb3ecc3d16e/GITSHA%20408ae5bd16)
+- [B03](https://sfb1451.github.io/tabby-to-catalog-demo/#/dataset/684fe005-9fb0-53ad-b729-17c44ce2d552/latest)
+- [B04 WP1](https://sfb1451.github.io/tabby-to-catalog-demo/#/dataset/cb2b0fe3-c4c4-5ff4-b13a-5670df164a4a/latest)
+- [B04 WP2](https://sfb1451.github.io/tabby-to-catalog-demo/#/dataset/cd8b2020-a2f3-5f7c-aee2-af42079ec394/latest)
+- [C03](https://sfb1451.github.io/tabby-to-catalog-demo/#/dataset/70848ffe-f43f-5675-9510-dc0e15e5bb9a/latest)
+- [X04](https://sfb1451.github.io/tabby-to-catalog-demo/#/dataset/6515521f-9de3-5ebb-ad74-2882cad40715/latest)
+- [Z02](https://sfb1451.github.io/tabby-to-catalog-demo/#/dataset/e0d721d3-1398-5aa5-be07-2ec46a96f4b0/Latest) (C576J 36wks 5mm)
+- [Z03](https://sfb1451.github.io/tabby-to-catalog-demo/#/dataset/9964001a-5e8c-5c70-aedb-55141cca07c0/latest)
